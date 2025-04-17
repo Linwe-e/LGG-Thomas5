@@ -77,3 +77,11 @@ Video tutorials of data scientists working through the above exercises:
 
 * [101 Pandas Exercises for Data Analysis](https://www.machinelearningplus.com/python/101-pandas-exercises-python/)
 
+* Library Polars :
+
+    *Polars is an open-source library for data manipulation, known for being one of the fastest data processing solutions on a single machine. It features a well-structured, typed API that is both expressive and easy to use.*
+
+    https://pypi.org/project/polars/
+    
+    https://pola.rs/
+
