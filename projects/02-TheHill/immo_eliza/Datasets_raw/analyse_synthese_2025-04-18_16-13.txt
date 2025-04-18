@@ -1,0 +1,460 @@
+SYNTHÈSE COMPARATIVE DES DATASETS - 2025-04-18_16-13
+==================================================
+
+
+==================================================
+ANALYSE DU DATASET: Dataset Cheetah
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 66190
+Nombre de colonnes: 19
+
+COLONNES DISPONIBLES:
+  Property ID, Locality name, Postal code, Price
+  Type of property, Subtype of property, Number of rooms, Living area
+  Equipped kitchen, Furnished, Open fire, Terrace
+  Garden, Surface of good, Number of facades, Swimming pool
+  State of building, EPC score, Heating type
+
+Valeurs manquantes: 213754 (17.00% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  Garden: 52123 valeurs manquantes (78.75%)
+  Terrace: 42557 valeurs manquantes (64.30%)
+  Surface of good: 27118 valeurs manquantes (40.97%)
+  Heating type: 22276 valeurs manquantes (33.65%)
+  Equipped kitchen: 22168 valeurs manquantes (33.49%)
+
+STATISTIQUES DE PRIX (Price):
+  Min: 9000.0
+  Max: 10500000.0
+  Moyenne: 441683.01
+  Médiane: 320000.0
+
+RÉPARTITION GÉOGRAPHIQUE (Locality name):
+  Nombre de localités différentes: 3498
+  Top 5 des localités:
+    antwerpen: 1941 (2.93%)
+    knokke-heist: 1273 (1.92%)
+    liege: 1150 (1.74%)
+    oostende: 1086 (1.64%)
+    gent: 941 (1.42%)
+
+TYPES DE BIENS (Property ID):
+  11232444: 4 (0.01%)
+  20652651: 3 (0.00%)
+  20456336: 3 (0.00%)
+  20578140: 3 (0.00%)
+  20156305: 3 (0.00%)
+  20455583: 3 (0.00%)
+  20263290: 3 (0.00%)
+  20591487: 3 (0.00%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Dolphin
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 17065
+Nombre de colonnes: 20
+
+COLONNES DISPONIBLES:
+  id, type, subtype, postal_code
+  locality, price, rooms_cnt, area
+  immo_url, Type of sale, Kitchen type, Terrace surface
+  Garden surface, Swimming pool, Furnished, Open fire
+  Building condition, Number of frontages, Surface of good, Construction year
+
+Valeurs manquantes: 51717 (15.15% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  Garden surface: 13729 valeurs manquantes (80.45%)
+  Surface of good: 10938 valeurs manquantes (64.10%)
+  Terrace surface: 7396 valeurs manquantes (43.34%)
+  Kitchen type: 6652 valeurs manquantes (38.98%)
+  Number of frontages: 6197 valeurs manquantes (36.31%)
+
+STATISTIQUES DE PRIX (price):
+  Min: 14000
+  Max: 7500000
+  Moyenne: 440075.55
+  Médiane: 362000.0
+
+RÉPARTITION GÉOGRAPHIQUE (postal_code):
+  Nombre de localités différentes: 801
+  Top 5 des localités:
+    1000: 492 (2.88%)
+    1180: 418 (2.45%)
+    9000: 402 (2.36%)
+    1200: 390 (2.29%)
+    8300: 331 (1.94%)
+
+TYPES DE BIENS (type):
+  apartment: 10705 (62.73%)
+  house: 6262 (36.69%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Elephant
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 39860
+Nombre de colonnes: 66
+
+COLONNES DISPONIBLES:
+  Title, Prices, Label, Subtype
+  Region, Zip_code, Card_ID, Available date
+  Neighbourhood or locality, Construction year, Number of floors, Building condition
+  Street frontage width, Number of frontages, Surroundings type, Virtual visit
+  Asbestos certificate is available, Living area, Living room surface, Dining room surface
+  How many fireplaces?, Kitchen type, Kitchen surface, Bedrooms
+  Bedroom 1 surface, Bedroom 2 surface, Bedroom 3 surface, Bathrooms
+  Shower rooms, Toilets, Office surface, Office
+  Furnished, Surface of the plot, Width of the lot on the street, Connection to sewer network
+  Gas, water & electricity, Garden surface, Terrace surface, Terrace orientation
+  Elevator, Accessible for disabled people, TV cable, Swimming pool
+  Primary energy consumption, Energy class, Reference number of the EPC report, CO₂ emission
+  Yearly theoretical total energy consumption, Inspection report of the electrical installation, Heating type, Double glazing
+  Planning permission obtained, Total ground floor buildable, Subdivision permit, Possible priority purchase right
+  Proceedings for breach of planning regulations, Flood zone type, Latest land use designation, Price
+  Monthly charges, Cadastral income, Tenement building, Address
+  Website, External reference
+
+Valeurs manquantes: 1114551 (42.37% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  How many fireplaces?: 38409 valeurs manquantes (96.36%)
+  Monthly charges: 37499 valeurs manquantes (94.08%)
+  Office surface: 36888 valeurs manquantes (92.54%)
+  Total ground floor buildable: 36457 valeurs manquantes (91.46%)
+  Dining room surface: 35887 valeurs manquantes (90.03%)
+
+STATISTIQUES DE PRIX (Prices):
+  Min: 1000000€
+  Max: €
+  Impossible de calculer les statistiques de prix - vérifier le type de données
+
+RÉPARTITION GÉOGRAPHIQUE (Region):
+  Nombre de localités différentes: 2508
+  Top 5 des localités:
+    gent: 1175 (2.95%)
+    antwerpen: 1100 (2.76%)
+    oostende: 847 (2.12%)
+    knokke-heist: 756 (1.90%)
+    bruxelles: 656 (1.65%)
+
+TYPES DE BIENS (Subtype):
+  house: 16051 (40.27%)
+  apartment: 13177 (33.06%)
+  villa: 1831 (4.59%)
+  new-real-estate-project-apartments: 1240 (3.11%)
+  apartment-block: 999 (2.51%)
+  ground-floor: 926 (2.32%)
+  duplex: 816 (2.05%)
+  flat-studio: 750 (1.88%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Giraffe
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 67255
+Nombre de colonnes: 43
+
+COLONNES DISPONIBLES:
+  propertyId, localityName, postalCode, typeOfProperty
+  subtypeOfProperty, price, typeOfSale, numberOfRooms
+  livingArea, equippedKitchen, furnished, openFire
+  garden, surfaceOfGood, numberOfFacades, swimmingPool
+  stateOfBuilding, latitude, longitude, terraceSurface
+  hasBasement, hasDressingRoom, hasDisabledAccess, hasLift
+  hasLaundryRoom, gardenOrientation, streetFacadeWidth, livingRoomSurface
+  electricalInstallationCertificate, gScore, heatingType, hasHeatPump
+  hasPhotovoltaicPanels, hasThermicPanels, hasCollectiveWaterHeater, hasDoubleGlazing
+  epcScore, primaryEnergyConsumptionPerSqm, renovationObligation, cadastralIncome
+  parkingCountIndoor, parkingCountOutdoor, parkingCountClosedBox
+
+Valeurs manquantes: 0 (0.00% du total)
+
+STATISTIQUES DE PRIX (price):
+  Min: -1
+  Max: 15000000
+  Moyenne: 456432.41
+  Médiane: 340000.0
+
+RÉPARTITION GÉOGRAPHIQUE (localityName):
+  Nombre de localités différentes: 5169
+  Top 5 des localités:
+    Antwerpen: 1304 (1.94%)
+    Knokke-Heist: 1303 (1.94%)
+    Gent: 1001 (1.49%)
+    Oostende: 838 (1.25%)
+    Liège: 770 (1.14%)
+
+TYPES DE BIENS (propertyId):
+  20655968: 1 (0.00%)
+  20665504: 1 (0.00%)
+  20660028: 1 (0.00%)
+  20654583: 1 (0.00%)
+  20660024: 1 (0.00%)
+  20662347: 1 (0.00%)
+  20657565: 1 (0.00%)
+  20511111: 1 (0.00%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Kangaroo
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 80368
+Nombre de colonnes: 53
+
+COLONNES DISPONIBLES:
+  Unnamed: 0, id, url, type
+  subtype, bedroomCount, bathroomCount, province
+  locality, postCode, habitableSurface, roomCount
+  monthlyCost, hasAttic, hasBasement, hasDressingRoom
+  diningRoomSurface, hasDiningRoom, buildingCondition, buildingConstructionYear
+  facedeCount, floorCount, streetFacadeWidth, hasLift
+  floodZoneType, heatingType, hasHeatPump, hasPhotovoltaicPanels
+  hasThermicPanels, kitchenSurface, kitchenType, landSurface
+  hasLivingRoom, livingRoomSurface, hasBalcony, hasGarden
+  gardenSurface, gardenOrientation, parkingCountIndoor, parkingCountOutdoor
+  hasAirConditioning, hasArmoredDoor, hasVisiophone, hasOffice
+  toiletCount, hasSwimmingPool, hasFireplace, hasTerrace
+  terraceSurface, terraceOrientation, accessibleDisabledPeople, epcScore
+  price
+
+Valeurs manquantes: 2396576 (56.26% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  monthlyCost: 80368 valeurs manquantes (100.00%)
+  accessibleDisabledPeople: 80368 valeurs manquantes (100.00%)
+  hasBalcony: 80368 valeurs manquantes (100.00%)
+  hasAirConditioning: 79244 valeurs manquantes (98.60%)
+  hasSwimmingPool: 78552 valeurs manquantes (97.74%)
+
+STATISTIQUES DE PRIX (price):
+  Min: 3141.0
+  Max: 15000000.0
+  Moyenne: 447606.06
+  Médiane: 329900.0
+
+RÉPARTITION GÉOGRAPHIQUE (locality):
+  Nombre de localités différentes: 5470
+  Top 5 des localités:
+    Antwerpen: 1665 (2.07%)
+    Knokke-Heist: 1469 (1.83%)
+    Oostende: 1264 (1.57%)
+    Gent: 1136 (1.41%)
+    Liège: 922 (1.15%)
+
+TYPES DE BIENS (type):
+  HOUSE: 45234 (56.28%)
+  APARTMENT: 31144 (38.75%)
+  APARTMENT_GROUP: 2425 (3.02%)
+  HOUSE_GROUP: 1565 (1.95%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Koala
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 105027
+Nombre de colonnes: 31
+
+COLONNES DISPONIBLES:
+  property_ID, locality_name, postal_code, Price
+  type_property, subtype_property, is_public_sale, is_build_sale
+  number_rooms, living_area, kitchen_type, furnished
+  open_fire, terrace, garden, surface_of_good
+  number_of_facades, swimming_pool, state_of_building, latitude
+  longitude, customers_name, customers_type, customers_email
+  customers_phone_1, customers_phone_2, customers_province, customers_locality
+  customers_postalCode, customers_street, customers_number
+
+Valeurs manquantes: 685730 (21.06% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  customers_number: 105027 valeurs manquantes (100.00%)
+  garden: 85413 valeurs manquantes (81.32%)
+  customers_phone_2: 83334 valeurs manquantes (79.35%)
+  number_rooms: 77622 valeurs manquantes (73.91%)
+  surface_of_good: 56010 valeurs manquantes (53.33%)
+
+STATISTIQUES DE PRIX (Price):
+  Min: 3141.0
+  Max: 15000000.0
+  Moyenne: 435404.39
+  Médiane: 339000.0
+
+RÉPARTITION GÉOGRAPHIQUE (locality_name):
+  Nombre de localités différentes: 5297
+  Top 5 des localités:
+    Oostende: 1754 (1.67%)
+    Liège: 1692 (1.61%)
+    Antwerpen: 1648 (1.57%)
+    Gent: 1504 (1.43%)
+    Knokke-Heist: 1410 (1.34%)
+
+TYPES DE BIENS (property_ID):
+  11265810: 1 (0.00%)
+  20658358: 1 (0.00%)
+  20659755: 1 (0.00%)
+  20408885: 1 (0.00%)
+  20559711: 1 (0.00%)
+  20620568: 1 (0.00%)
+  20496580: 1 (0.00%)
+  20614489: 1 (0.00%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Panda
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 13664
+Nombre de colonnes: 1
+
+COLONNES DISPONIBLES:
+  id;title;locality;postal_code;price;type_property;subtype_property;type_of_sale;number_of_bedroom;number_of_bathrooms;number_of_rooms;living_area;equipped_kitchen;equipped_kitchen_text;number_of_toilets;sewer;sewer_text;furnished;open_fire;terrace;garden;surface_of_good;number_of_facades;swimming_pool;state_of_building;state_of_building_text;link;scraped;latitude;longitude;heating;heating_text;heating_power;energy_class;construction_year;number_of_floors;internal_parking;external_parking;cadastral_income;facade_width;environment;environment_text;multiple_sells;page_number;flood_zone_type
+
+Valeurs manquantes: 0 (0.00% du total)
+
+STATISTIQUES DE PRIX (id;title;locality;postal_code;price;type_property;subtype_property;type_of_sale;number_of_bedroom;number_of_bathrooms;number_of_rooms;living_area;equipped_kitchen;equipped_kitchen_text;number_of_toilets;sewer;sewer_text;furnished;open_fire;terrace;garden;surface_of_good;number_of_facades;swimming_pool;state_of_building;state_of_building_text;link;scraped;latitude;longitude;heating;heating_text;heating_power;energy_class;construction_year;number_of_floors;internal_parking;external_parking;cadastral_income;facade_width;environment;environment_text;multiple_sells;page_number;flood_zone_type):
+  Min: 10009016;appartement;MIDDELKERKE;8430;449000;APARTMENT;APARTMENT;residential_sale;2;0;;75;;NOT_INSTALLED;0;;;;0;;;;2;0;;JUST_RENOVATED;https://www.immoweb.be/fr/annonce/appartement/a-vendre/middelkerke/8430/10009016;1;51.1898617;2.819388;;;585.0;F;1964;7;0;0;0;;;;0;78;
+  Max: 9998137;Superbe appartement duplex avec 2 belles terrasses situé av;het Zoute;8300;2150000;APARTMENT;DUPLEX;residential_sale;2;2;1;121;;;0;;;;0;14;;;;0;;AS_NEW;https://www.immoweb.be/fr/annonce/duplex/a-vendre/het-zoute/8300/9998137;1;51.3550475;3.301374;;GAS;66.0;A+;2021;;0;0;0;;;;0;52;NON_FLOOD_ZONE
+  Impossible de calculer les statistiques de prix - vérifier le type de données
+
+RÉPARTITION GÉOGRAPHIQUE (id;title;locality;postal_code;price;type_property;subtype_property;type_of_sale;number_of_bedroom;number_of_bathrooms;number_of_rooms;living_area;equipped_kitchen;equipped_kitchen_text;number_of_toilets;sewer;sewer_text;furnished;open_fire;terrace;garden;surface_of_good;number_of_facades;swimming_pool;state_of_building;state_of_building_text;link;scraped;latitude;longitude;heating;heating_text;heating_power;energy_class;construction_year;number_of_floors;internal_parking;external_parking;cadastral_income;facade_width;environment;environment_text;multiple_sells;page_number;flood_zone_type):
+  Nombre de localités différentes: 13626
+  Top 5 des localités:
+    20645515;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;173;;;2;;;;0;;;;4;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645515;1;50.9634996;3.418972;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+    20645523;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;9;179;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645523;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+    20645518;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;149;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645518;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+    20645519;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;143;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645519;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+    20645516;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;144;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645516;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+
+TYPES DE BIENS (id;title;locality;postal_code;price;type_property;subtype_property;type_of_sale;number_of_bedroom;number_of_bathrooms;number_of_rooms;living_area;equipped_kitchen;equipped_kitchen_text;number_of_toilets;sewer;sewer_text;furnished;open_fire;terrace;garden;surface_of_good;number_of_facades;swimming_pool;state_of_building;state_of_building_text;link;scraped;latitude;longitude;heating;heating_text;heating_power;energy_class;construction_year;number_of_floors;internal_parking;external_parking;cadastral_income;facade_width;environment;environment_text;multiple_sells;page_number;flood_zone_type):
+  20645515;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;173;;;2;;;;0;;;;4;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645515;1;50.9634996;3.418972;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+  20645523;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;9;179;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645523;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+  20645518;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;149;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645518;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+  20645519;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;143;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645519;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+  20645516;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;144;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645516;1;50.9641299;3.4197829;;;;A;;;0;0;0;;;;1;;: 3 (0.02%)
+  20645513;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;186;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645513;1;50.9634996;3.418972;;;;A;;;1;0;0;;;;1;;: 3 (0.02%)
+  20645514;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;186;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645514;1;50.9634996;3.418972;;;;A;;;1;0;0;;;;1;;: 3 (0.02%)
+  20645517;RivaHof;Dentergem;8720;;HOUSE;HOUSE;residential_sale;3;1;8;156;;;2;;;;0;;;;3;0;;;https://www.immoweb.be/fr/annonce/projet-neuf-maisons/a-vendre/dentergem/8720/20645517;1;50.9641299;3.4197829;;;;A;;;1;0;0;;;;1;;: 3 (0.02%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Penguin
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 65776
+Nombre de colonnes: 20
+
+COLONNES DISPONIBLES:
+  property_ID, locality_name, postal_code, price
+  type_of_property, subtype_of_property, type_of_sale, number_of_rooms
+  living_area, equipped_kitchen, furnished, open_fire
+  terrace, garden, surface_of_good, number_of_facades
+  swimming_pool, state_of_building, PBE, energy_consumption
+
+Valeurs manquantes: 115788 (8.80% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  furnished: 65776 valeurs manquantes (100.00%)
+  equipped_kitchen: 24902 valeurs manquantes (37.86%)
+  PBE: 8228 valeurs manquantes (12.51%)
+  energy_consumption: 8228 valeurs manquantes (12.51%)
+  state_of_building: 4327 valeurs manquantes (6.58%)
+
+STATISTIQUES DE PRIX (price):
+  Min: 10000
+  Max: none
+  Impossible de calculer les statistiques de prix - vérifier le type de données
+
+RÉPARTITION GÉOGRAPHIQUE (locality_name):
+  Nombre de localités différentes: 3482
+  Top 5 des localités:
+    antwerpen: 1700 (2.58%)
+    knokke-heist: 1373 (2.09%)
+    liège: 1085 (1.65%)
+    gent: 1060 (1.61%)
+    oostende: 1005 (1.53%)
+
+TYPES DE BIENS (property_ID):
+  20667022: 2 (0.00%)
+  20648031: 2 (0.00%)
+  20642625: 2 (0.00%)
+  20650944: 2 (0.00%)
+  20674671: 2 (0.00%)
+  20640229: 2 (0.00%)
+  20570698: 2 (0.00%)
+  20609795: 2 (0.00%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Tiger
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 24589
+Nombre de colonnes: 18
+
+COLONNES DISPONIBLES:
+  Property ID, Locality name, Postal code, Price
+  Type of property, Subtype of property, Type of sale, Number of rooms
+  Living area, Equipped kitchen, Furnished, Open fire
+  Terrace, Garden, Surface of good, Number of facades
+  Swimming pool, State of building
+
+Valeurs manquantes: 63107 (14.26% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  Garden: 19342 valeurs manquantes (78.66%)
+  Terrace: 14985 valeurs manquantes (60.94%)
+  Surface of good: 12222 valeurs manquantes (49.71%)
+  Number of facades: 7813 valeurs manquantes (31.77%)
+  State of building: 5007 valeurs manquantes (20.36%)
+
+STATISTIQUES DE PRIX (Price):
+  Min: 1.12
+  Max: 13000000.0
+  Moyenne: 437101.50
+  Médiane: 329000.0
+
+RÉPARTITION GÉOGRAPHIQUE (Locality name):
+  Nombre de localités différentes: 3026
+  Top 5 des localités:
+    Gent: 595 (2.42%)
+    Oostende: 543 (2.21%)
+    Antwerpen: 486 (1.98%)
+    Knokke-Heist: 479 (1.95%)
+    Bruxelles: 406 (1.65%)
+
+TYPES DE BIENS (Property ID):
+  10228061: 1 (0.00%)
+  20525885: 1 (0.00%)
+  20642664: 1 (0.00%)
+  20651526: 1 (0.00%)
+  20657400: 1 (0.00%)
+  20659223: 1 (0.00%)
+  20661287: 1 (0.00%)
+  20656973: 1 (0.00%)
+
+==================================================
+ANALYSE DU DATASET: Dataset Unicorn
+==================================================
+
+Fichier chargé avec: délimiteur=',', encodage='utf-8'
+Nombre total de propriétés: 7440
+Nombre de colonnes: 18
+
+COLONNES DISPONIBLES:
+  https://www.immoweb.be/fr/annonce/rez-de-chaussee/a-vendre/hoboken/2660/20674139, 20674139, HOBOKEN, 2660
+  N/A, APARTMENT, GROUND_FLOOR, FOR_SALE
+  100 m²
+mètres carrés, INSTALLED, N/A.1, False
+  N/A.2, N/A.3, N/A.4, N/A.5
+  N/A.6, N/A.7
+
+Valeurs manquantes: 49012 (36.60% du total)
+Top 5 des colonnes avec valeurs manquantes:
+  N/A.3: 7139 valeurs manquantes (95.95%)
+  N/A.2: 5866 valeurs manquantes (78.84%)
+  N/A.5: 5657 valeurs manquantes (76.03%)
+  N/A.6: 5573 valeurs manquantes (74.91%)
+  N/A.7: 5573 valeurs manquantes (74.91%)
