@@ -47,3 +47,9 @@ Thumbs.db
 *API_KEY*
 config.ini
 secrets.json
+
+# Personal instructions and GitHub templates (private)
+.github/
+instructions/
+*.instructions.md
+*copilot.instructions.md
