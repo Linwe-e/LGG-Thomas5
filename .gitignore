@@ -1,0 +1,49 @@
+# Large model files and data
+**/data/
+*.kv
+*.kv.*
+*.npy
+*.bin
+*.pkl
+*.pickle
+
+# Machine Learning models
+**/models/
+**/checkpoints/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment files
+.env
+.venv
+env/
+venv/
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large datasets
+*.csv
+*.json
+*.parquet
+*.h5
+*.hdf5
+
+# API keys (be extra careful)
+*api_key*
+*API_KEY*
+config.ini
+secrets.json
