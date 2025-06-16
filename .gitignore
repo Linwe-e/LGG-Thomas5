@@ -1,0 +1,71 @@
+# Large data files that exceed GitHub's file size limits
+03-TheMoutain/GenAI/Text_Generation/data/twitter_samples/tweets.20150430-223406.json
+03-TheMoutain/GenAI/Text_Generation/data/glove-wiki-gigaword-300.kv.vectors.npy
+
+# General patterns for large files
+*.json
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+*.rar
+
+# Data directories
+**/data/
+**/datasets/
+**/models/
+**/checkpoints/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
