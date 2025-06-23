@@ -1,5 +1,0 @@
-numpy
-tqdm
-beautifulsoup4
-requests
-cloudscraper
